@@ -1,0 +1,32 @@
+.app-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .app-title {
+        font-family: GeosansLight, sans-serif;
+        text-align: center;
+    }
+
+    .app-image {
+        width: 100%;
+        max-width: 641px;
+    }
+
+    .app-text {
+        max-width: 641px;
+
+        ul.app-social-media {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li {
+                margin: 0 8px;
+            }
+        }
+    }
+}
