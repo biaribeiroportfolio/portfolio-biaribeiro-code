@@ -1,17 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 
 @font-face {
-    font-family: GeosansLight;
-    src: url(./assets/fonts/geo_sans_light/GeosansLight.ttf);
+    font-family: CreatoDisplayLight;
+    src: url(./assets/fonts/creato_display/CreatoDisplay-Light.otf);
 }
 
 @font-face {
-    font-family: QuicksandBook;
-    src: url(./assets/fonts/quicksand/Quicksand_Book.otf);
+    font-family: CreatoDisplayBold;
+    src: url(./assets/fonts/creato_display/CreatoDisplay-Bold.otf);
 }
 
 * {
-    font-family: QuicksandBook, sans-serif;
+    font-family: CreatoDisplayLight, sans-serif;
+}
+
+:focus-visible {
+    outline: none;
 }
 
 body {

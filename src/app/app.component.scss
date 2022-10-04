@@ -5,7 +5,7 @@
     flex-direction: column;
 
     .app-title {
-        font-family: GeosansLight, sans-serif;
+        font-family: CreatoDisplayBold, sans-serif;
         text-align: center;
         font-size: 3rem;
         font-weight: bolder;
@@ -55,6 +55,14 @@
         .app-image {
             max-width: 223px;
         }
+
+        .app-text {
+            .app-works {
+                .app-works-separator {
+                    margin: 0.75rem 0;
+                }
+            }
+        }
     }
 }
 
@@ -62,6 +70,14 @@
     .app-container {
         .app-image {
             max-width: 250px;
+        }
+
+        .app-text {
+            .app-works {
+                .app-works-separator {
+                    margin: 0.75rem 0;
+                }
+            }
         }
     }
 }
